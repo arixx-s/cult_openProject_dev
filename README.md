@@ -1,4 +1,4 @@
-# Smart Asset Management and Resource Allocation Platform
+# Asset Desk
 
 A full-stack asset management platform for tracking shared inventory, booking resources, approving requests, issuing assets, recording returns and viewing operational analytics.
 
@@ -25,8 +25,15 @@ The project is written to be easy to read and run. Folder names are intentionall
 
 ### Documentation
 - README setup guide
-- Design document PDF
-- Tech stack and deliverables PPT
+- Design document
+- Tech stack and deliverables presentation
+- Demonstration video
+
+## Project Resources
+
+The design document, presentation, and demonstration video are available at:
+
+https://drive.google.com/drive/folders/1raa9D2YBpfbu47Iu-0vml2tfvdfJX5Mo?usp=sharing
 
 ## Mandatory Feature Coverage
 
@@ -94,7 +101,7 @@ Use the normal user account to:
 ## API Overview
 
 | Method | Route | Purpose |
-| --- | --- | --- |
+|----------|----------|----------|
 | POST | `/api/register` | Create a user account |
 | POST | `/api/login` | Log in and create a session |
 | POST | `/api/logout` | Clear the session |
@@ -114,22 +121,21 @@ Use the normal user account to:
 ## Repository Contents
 
 ```text
-asset-management-platform/
-  backend/
-    app.py
-    auth.py
-    database.py
-  database/
-    schema.sql
-    seed_data.sql
-  docs/
-    demo_video_script.md
-    design_document.md
-  frontend/
-    app.js
-    index.html
-    styles.css
-  README.md
+asset-desk/
+├── backend/
+│   ├── app.py
+│   ├── auth.py
+│   └── database.py
+├── database/
+│   ├── schema.sql
+│   └── seed_data.sql
+├── docs/
+│   └── design_document.md
+├── frontend/
+│   ├── app.js
+│   ├── index.html
+│   └── styles.css
+└── README.md
 ```
 
 ## Notes for Submission
@@ -137,7 +143,10 @@ asset-management-platform/
 The mandatory deliverables are represented as:
 
 - Working application: source code in this repository
-- Design document: `outputs/smart-asset-management-design-document.pdf`
-- GitHub repository contents: project folder with source, database scripts and documentation
+- GitHub repository contents: project folder with source code, database scripts and documentation
 - README: this file
-- Demonstration video: use `docs/demo_video_script.md` to record a 3 minute walkthrough showing login, booking, approval, dashboard and issue/return workflow
+- Design document, presentation, and demonstration video: available through the shared drive
+
+## Project Resources
+
+https://drive.google.com/drive/folders/1raa9D2YBpfbu47Iu-0vml2tfvdfJX5Mo?usp=sharing
