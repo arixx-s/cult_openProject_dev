@@ -4,6 +4,12 @@ A full-stack asset management platform for tracking shared inventory, booking re
 
 The project is written to be easy to read and run. Folder names are intentionally familiar: `backend`, `frontend`, `database` and `docs`.
 
+## Live Demo
+
+**Application URL:** https://asset-desk.onrender.com/
+
+Use the demo accounts below to explore the platform features.
+
 ## Technology Stack
 
 ### Backend
