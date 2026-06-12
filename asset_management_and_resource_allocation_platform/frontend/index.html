@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Asset Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section id="auth-screen" class="auth-screen">
+      <div class="auth-copy">
+        <p class="eyebrow">Cultural Council Resource Desk</p>
+        <h1>Smart Asset Management</h1>
+        <p>Track shared resources, approve requests, issue equipment and keep inventory visible from one simple workspace.</p>
+      </div>
+      <form id="auth-form" class="auth-card">
+        <h2 id="auth-title">Log in</h2>
+        <label id="name-field">Name <input name="name" autocomplete="name"></label>
+        <label>Email <input name="email" type="email" autocomplete="email" required></label>
+        <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit" id="auth-submit">Log in</button>
+        <button type="button" id="toggle-auth" class="text-button">Create a user account</button>
+        <p class="hint">Demo admin: admin@example.com / password123</p>
+      </form>
+    </section>
+
+    <section id="dashboard-screen" class="dashboard-screen hidden">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Asset Desk</p>
+          <h1>Inventory and Allocation</h1>
+        </div>
+        <div class="user-strip">
+          <span id="current-user"></span>
+          <button id="logout-button">Log out</button>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="Application sections">
+        <button class="tab active" data-view="overview">Overview</button>
+        <button class="tab" data-view="assets">Assets</button>
+        <button class="tab" data-view="bookings">Bookings</button>
+        <button class="tab" data-view="history">History</button>
+      </nav>
+
+      <section id="overview-view" class="view"></section>
+      <section id="assets-view" class="view hidden"></section>
+      <section id="bookings-view" class="view hidden"></section>
+      <section id="history-view" class="view hidden"></section>
+    </section>
+  </main>
+  <div id="toast" class="toast hidden"></div>
+  <script src="app.js"></script>
+</body>
+</html>
