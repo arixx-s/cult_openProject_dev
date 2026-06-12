@@ -9,8 +9,8 @@ from auth import clear_session_cookie, hash_password, make_session, read_session
 from database import ROOT_DIR, connect, initialize_database, one_to_dict, rows_to_dicts
 
 
-HOST = "127.0.0.1"
-PORT = 8000
+HOST = "0.0.0.0"
+PORT = int(os.environ.get("PORT", 8000))
 FRONTEND_DIR = ROOT_DIR / "frontend"
 
 
