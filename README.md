@@ -10,6 +10,14 @@ The project is written to be easy to read and run. Folder names are intentionall
 
 Use the demo accounts below to explore the platform features.
 
+## Submitted By
+
+| Name | Enrollment Number | Email |
+|--------|--------|--------|
+| Aric Sukhija | 24113021 | aric_s@ch.iitr.ac.in |
+| Vedant Ganesh Halkude | 24112113 | vedant_gh@ch.iitr.ac.in |
+| Vatsal Jain | 24126019 | vatsal_j@hre.iitr.ac.in |
+
 ## Technology Stack
 
 ### Backend
