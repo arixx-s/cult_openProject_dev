@@ -2,6 +2,7 @@ from datetime import date
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import mimetypes
+import os
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
